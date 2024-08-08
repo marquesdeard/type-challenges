@@ -1,0 +1,32 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "esno": "^4.0.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "lz-string": "^1.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.0",
+    "@type-challenges/utils": "workspace:*",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/lz-string": "^1.5.0",
+    "@types/node": "^20.10.5",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^8.56.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "typescript": "^5.3.3",
+    "utility-types": "^3.10.0"
+  }
+}
