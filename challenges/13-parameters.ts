@@ -22,6 +22,8 @@
 
 type MyParameters<T> = T extends (...args: infer U) => unknown ? U : never;
 
+type Example = MyParameters<typeof baz>
+
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
 
